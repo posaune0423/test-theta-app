@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.json",
+  "include": ["./**/*"],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "isolatedModules": false
+  },
+  "types": [
+    "@types/jest",
+    "@types/puppeteer",
+    "@types/expect-puppeteer",
+    "@types/jest-environment-puppeteer",
+    "@types/jest-image-snapshot"
+  ]
+}
