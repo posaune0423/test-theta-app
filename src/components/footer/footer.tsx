@@ -1,5 +1,4 @@
 import { FunctionComponent } from 'react'
-import CssBaseline from '@mui/material/CssBaseline'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
@@ -40,7 +39,7 @@ export const Footer: FunctionComponent = () => {
       >
         <Container maxWidth="sm">
           <Typography variant="body1">
-            My sticky footer can be found here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            Test app
           </Typography>
           <Copyright />
         </Container>
